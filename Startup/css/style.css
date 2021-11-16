@@ -53,8 +53,18 @@ a {
     background-color: tomato;
     margin-top: 9px;
 }
+.button:hover {
+    background-color: violet;
+    color: white;
+}
+.button>a:hover{
+    color: white;
+}
 .pages>ul>li>a:hover {
     color: red;
+}
+.pages>ul>li>.dropdown>a:hover {
+    color: white;
 }
 .pages>ul>li {
     padding: 10px;
@@ -188,6 +198,9 @@ main .page3 {
     display: flex;
     justify-content: space-between;
 }
+#Previos{
+    display: none;
+}
 .corousel-button>.c-b{
     width: 50px;
     height: 50px;
@@ -235,6 +248,12 @@ main .page3 {
     background-color: green;
     border-radius: 5px;
     text-align: center;
+}
+.button1>a:hover{
+    color: red;
+}
+.button2>a:hover{
+    color: red;
 }
 
 .button2 {
@@ -330,3 +349,63 @@ main .page3 {
     font-size: 100px;
     color: white;
 }
+.page-6{
+    background-color: whitesmoke;
+    padding-top: 80px;
+   
+}
+.pagetext{
+    text-align: center;
+}
+.cards>.cardphoto>img{
+    width: 100%;
+    height: 235px;
+}
+.page-6>.container>.row>.col-4>.cards{
+    margin: 25px 10px;
+    border: 1px solid none;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px white;
+}
+.cardmain{
+    padding: 40px;
+}
+.cardtext{
+    text-align: center;
+}
+.cardtext>h1{
+    font-size: 27px;
+}
+.cardbutton{
+    text-align: center;
+    padding-top: 25px;
+}
+.cardbutton>button{
+    width: 110px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 0px black;;
+}
+.cardbutton>button:hover {
+    background-color: rgb(46, 45, 45);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background-image: linear-gradient(to right, blue,aqua);
+}
+.footer>h4{
+    color: white;
+}
+.footer>h4>span{
+    color: yellowgreen;
+}
+
